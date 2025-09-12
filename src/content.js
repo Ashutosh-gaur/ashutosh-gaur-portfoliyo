@@ -16,7 +16,7 @@ import springbootLogo from './assets/tech_logo/springboot.png';
 import nodejsLogo from './assets/tech_logo/nodejs.png';
 import jspLogo from './assets/tech_logo/jsp.png';
 import apacheLogo from './assets/tech_logo/apache.png';
-import springFrameworkLogo from './assets/tech_logo/springFramework.png';
+import springFrameworkLogo from './assets/tech_logo/springFrameWork.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import hibernatelogo from './assets/tech_logo/Hibernate.png';
