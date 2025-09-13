@@ -63,7 +63,6 @@ export const skillsData = [
       { name: "JavaScript", logo: javascriptLogo },
       { name: "React JS", logo: reactjsLogo },
       { name: "Redux", logo: reduxLogo },
-      { name: "Next JS", logo: nextjsLogo },
       { name: "Tailwind CSS", logo: tailwindcssLogo },
     ]
   },
@@ -78,8 +77,6 @@ export const skillsData = [
       { name: "JSP", logo: jspLogo },
       { name: "Servlet", logo: apacheLogo },
       { name: "Spring Framework", logo: springFrameworkLogo },
-      // { name: "RESTfull Web Services", logo: "" },
-      { name: "Node JS", logo: nodejsLogo },
       { name: "MySQL", logo: mysqlLogo },
     ]
 
