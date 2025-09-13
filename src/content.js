@@ -20,6 +20,7 @@ import springFrameworkLogo from './assets/tech_logo/springFrameWork.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import hibernatelogo from './assets/tech_logo/Hibernate.png';
+import sqllogo from './assets/tech_logo/sql.png';
 
 
 // Language
@@ -78,6 +79,7 @@ export const skillsData = [
       { name: "Servlet", logo: apacheLogo },
       { name: "Spring Framework", logo: springFrameworkLogo },
       { name: "MySQL", logo: mysqlLogo },
+      { name: "SQL", logo: sqllogo },
     ]
 
   },
