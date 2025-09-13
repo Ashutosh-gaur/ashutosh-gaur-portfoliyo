@@ -29,7 +29,7 @@ import javaLogo from './assets/tech_logo/java.png';
 import gitLogo from './assets/tech_logo/git.png';
 import productCatalogueLogo from './assets/tech_logo/productCatalogueLogo.png';
 import todoAppLogo from './assets/tech_logo/todoAppLogo.png';
-import onlinepollLogo from './assets/tech_logo/onlinepollLogo.png';
+import onlinepollLogo from './assets/tech_logo/onlinePollLogo.png';
 import PostManLogo from './assets/tech_logo/PostManLogo.png'
 
 
