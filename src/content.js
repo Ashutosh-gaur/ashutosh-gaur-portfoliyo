@@ -20,7 +20,7 @@ import springFrameworkLogo from './assets/tech_logo/springFrameWork.png';
 import mysqlLogo from './assets/tech_logo/mysql.png';
 import mongodbLogo from './assets/tech_logo/mongodb.png';
 import hibernatelogo from './assets/tech_logo/Hibernate.png';
-import sql from './assets/tech_logo/sql.png';
+import sqllogo from './assets/tech_logo/sql.png';
 
 
 // Language
@@ -30,7 +30,7 @@ import javaLogo from './assets/tech_logo/java.png';
 import gitLogo from './assets/tech_logo/git.png';
 import productCatalogueLogo from './assets/tech_logo/productCatalogueLogo.png';
 import todoAppLogo from './assets/tech_logo/todoAppLogo.png';
-import onlinepollLogo from './assets/tech_logo/onlinepollLogo.png';
+import onlinepollLogo from './assets/tech_logo/onlinePollLogo.png';
 import PostManLogo from './assets/tech_logo/PostManLogo.png'
 
 
@@ -78,8 +78,8 @@ export const skillsData = [
       { name: "JSP", logo: jspLogo },
       { name: "Servlet", logo: apacheLogo },
       { name: "Spring Framework", logo: springFrameworkLogo },
-      { name: "SQL", logo: sql },
       { name: "MySQL", logo: mysqlLogo },
+      { name: "SQL", logo: sqllogo },
     ]
 
   },
