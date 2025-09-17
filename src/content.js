@@ -119,7 +119,7 @@ export const projects = [
     id: 0,
     title: "Product Catalogue",
     description:
-      "Modified Project Description Product Catalogue is a full-stack application designed for managing and browsing products in an organized way.The backend, built using Spring Boot and MySQL, provides secure REST APIs to fetch and manage product data. The frontend, developed with React and TailwindCSS, offers a modern and responsive UI where users can:🔎 Search & Filter Products (by name, category, etc.) ↕ Sort Products (price, name, etc.)🛒 Add to Cart functionality (cart data stored in LocalStorage)📄 View Product Details seamlessly This project highlights strong Java backend skills with API & database integration, along with React-based frontend development for smooth user experience and state management.",
+      "Product Catalogue is a full-stack application built with Spring Boot, MySQL, React, and TailwindCSS. It provides secure REST APIs for managing product data and a modern, responsive UI for users to search, filter, and sort products, view product details, and add items to the cart (stored in LocalStorage). The project highlights strong Java backend integration with APIs & database along with smooth frontend development and state management using React.",
 
     image: productCatalogueLogo,
     tags: ["React", "TailwindCSS", "JavaScript","Spring Boot", "Spring Data JPA", "Redux"],
@@ -146,7 +146,7 @@ export const projects = [
     id: 3,
     title: "Online Poll",
     description:
-      "Developed a full-stack interactive polling application where users can create polls, cast votes, and view real-time results with a dynamic and responsive interface. Implemented React on the frontend with TailwindCSS for sleek UI design and smooth user interactions.Designed and developed RESTful APIs using Spring Boot and Spring Data JPA, ensuring secure and persistent storage of poll data in MySQL.Implemented features including poll creation, voting, result visualization, and user-friendly dashboards to provide a complete end-to-end polling experience.",
+      "Developed a full-stack interactive polling application that allows users to create custom polls, cast votes, and instantly view real-time results with a responsive and user-friendly interface. The application ensures secure and persistent data storage using Spring Data JPA with MySQL, while delivering smooth performance and a mobile-friendly design for an engaging polling experience",
     image: onlinepollLogo,
     tags: ["ReactJS", "TailwindCSS", "Spring Boot", "Spring Data JPA", "MySQ", "JavaScript"],
     github: "https://github.com/Ashutosh-gaur/TodoAppFrontend.git",
@@ -157,7 +157,7 @@ export const projects = [
     id: 4,
     title: "MiniPostMan",
     description:
-      "Mini Postman Clone is a developer-friendly API testing tool inspired by Postman.It allows users to test REST APIs by sending GET, POST, PUT, and DELETE requests, adding custom headers/parameters, and entering JSON bodies. The API response is displayed in a pretty-printed JSON format with syntax highlighting, making debugging easier.Built with React, Vite, and TailwindCSS, this project demonstrates strong frontend development skills and API integration handling.",
+      "Built a Mini Postman Clone using React, Vite, and TailwindCSS, enabling developers to test REST APIs with GET, POST, PUT, and DELETE requests, custom headers, and JSON bodies. Displays responses in a formatted, syntax-highlighted view for easier debugging",
     image: PostManLogo,
 
 
