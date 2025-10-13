@@ -100,12 +100,12 @@ export const skillsData = [
 
     title: "Tools",
     skills: [
-      
+
       { name: "Git", logo: gitLogo },
       { name: "GitHub", logo: githubLogo },
       { name: "VS Code", logo: vscodeLogo },
       { name: "Postman", logo: postmanLogo },
-      { name: "Netlify", logo: netlify},
+      { name: "Netlify", logo: netlify },
       { name: "Render", logo: renderLogo },
 
     ]
@@ -122,7 +122,7 @@ export const projects = [
       "Product Catalogue is a full-stack application built with Spring Boot, MySQL, React, and TailwindCSS. It provides secure REST APIs for managing product data and a modern, responsive UI for users to search, filter, and sort products, view product details, and add items to the cart (stored in LocalStorage). The project highlights strong Java backend integration with APIs & database along with smooth frontend development and state management using React.",
 
     image: productCatalogueLogo,
-    tags: ["React", "TailwindCSS", "JavaScript","Spring Boot", "Spring Data JPA", "Redux"],
+    tags: ["React", "TailwindCSS", "JavaScript", "Spring Boot", "Spring Data JPA", "Redux"],
     github: "https://github.com/Ashutosh-gaur/ProductCatologue",
     githubBackend: "https://github.com/Ashutosh-gaur/ProductCatalogueBackend.git",
     webapp: "https://productcataloguegaur.netlify.app",
@@ -161,7 +161,7 @@ export const projects = [
     image: PostManLogo,
 
 
-    tags: ["React", "Vite", "MongoDB", "TailwindCSS",  "JavaScript"," Syntax Highlighting Library"],
+    tags: ["React", "Vite", "MongoDB", "TailwindCSS", "JavaScript", " Syntax Highlighting Library"],
     github: "https://github.com/Ashutosh-gaur/PostManClone.git",
     githubBackend: "",
     webapp: "https://minipostman.netlify.app",
@@ -206,3 +206,22 @@ export const education = [
     degree: "CBSE(X), Science with Computer Application",
   },
 ];
+
+
+export const experiences = [
+  {
+    id: 1,
+    title: "Java Full Stack Intern",
+    company_name: "CETPA Infotech Pvt. Ltd.",
+    location: "Noida, India",
+    duration: "Jan 2024 – May 2024",
+    description: [
+      "Worked on full-stack web application development using Java, Spring Boot, ReactJS, and MySQL.",
+      "Implemented CRUD operations and integrated RESTful APIs for backend functionality.",
+      "Collaborated on debugging, optimizing database queries, and enhancing frontend-backend connectivity.",
+      "Gained hands-on experience in full-stack workflow and deployment practices."
+    ],
+    technologies: ["Java", "Spring Boot", "ReactJS", "MySQL", "REST API"]
+  }
+];
+

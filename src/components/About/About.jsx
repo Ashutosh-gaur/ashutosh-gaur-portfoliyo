@@ -22,7 +22,7 @@ function About() {
     <section  id="about" className="about mx-auto  text-white relative overflow-hidden ">
       <BlurBlob />
 
-      <div className="flex  flex-col-reverse justify-center md:flex-row items-center  gap-12 px-6 md:px-24 py-52">
+      <div className="flex  flex-col-reverse justify-center md:flex-row items-center  gap-12 px-20 md:px-24 py-52">
 
         {/* Text Content */}
         <div className="max-w-2xl space-y-6 text-center md:text-left">
@@ -47,7 +47,7 @@ function About() {
             </h1>
           </div>
 
-          <p className="text-gray-400 text-lg md:text-xl leading-relaxed text-justify">
+          <p className="text-gray-50 text-lg md:text-xl leading-relaxed text-justify  ">
             I'm a Full-Stack Java Developer passionate about crafting scalable, efficient applications using tools like Spring Boot, Hibernate, React.js, and RESTful APIs. I believe in clean code, pixel-perfect design, and continuous learning in real-world development environments.
           </p>
 
@@ -73,7 +73,7 @@ function About() {
             <img
               src={Ashu}
               alt="Ashutosh Gaur"
-              className="rounded-full w-70 h-70 md:w-130 md:h-130 min-w-[270px] min-h-[270px]"
+              className="rounded-full   min-w-[270px] min-h-[270px]"
             />
           </Tilt>
 
