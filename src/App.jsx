@@ -7,6 +7,7 @@ import Skill from './components/Skills/Skill';
 import Project from './components/Projects/Project';
 import Education from './components/Education/Education';
 import Contact from './components/Contact/Contact';
+import Experience from './components/Experience/Experience.jsx'
 const App = () => {
   return (
     <div className='layout bg-[#050414] '>
@@ -25,6 +26,9 @@ const App = () => {
         <Project />
       </section>
 
+      <section className='py-5'>
+        <Experience />
+      </section>
       <section className='py-5'>
         <Education />
       </section>

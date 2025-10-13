@@ -7,7 +7,11 @@ function Project() {
   const scrollRef = useRef(null);
 
   return (
-    <section id="projects" className="px-4 sm:px-8 md:px-16 lg:px-24 xl:px-32 2xl:px-48 py-20 relative">
+    <section id="projects" className=" text-white py-16 w-full px-4 sm:px-8 md:px-16 lg:px-24 xl:px-48 2xl:px-64 relative ">
+
+      <div className=" bg-gradient-to-r from-gray-900 to-gray-800 py-10 rounded-2xl px-4 sm:px-4  ">
+
+      
       {/* Heading */}
       <div className="text-white text-center mb-12">
         <h1 className="uppercase text-3xl font-extrabold underline underline-offset-8 decoration-purple-900">
@@ -61,6 +65,7 @@ function Project() {
           </div>
         ))}
       </div>
+       </div>
 
       {/* Modal */}
       <div>
@@ -135,7 +140,9 @@ function Project() {
           </div>
         )}
       </div>
+     
     </section>
+
   );
 }
 
