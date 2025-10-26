@@ -214,7 +214,7 @@ export const experiences = [
     title: "Java Full Stack Intern",
     company_name: "CETPA Infotech Pvt. Ltd.",
     location: "Noida, India",
-    duration: "Jan 2024 – May 2024",
+    duration: "August 2024 – May 2025",
     description: [
       "Worked on full-stack web application development using Java, Spring Boot, ReactJS, and MySQL.",
       "Implemented CRUD operations and integrated RESTful APIs for backend functionality.",
