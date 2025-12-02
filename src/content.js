@@ -54,6 +54,7 @@ import svmLogo from './assets/education_logo/svm_logo.jpg';
 
 
 
+
 export const skillsData = [
 
   {
