@@ -132,7 +132,7 @@ export const projects = [
     id: 1,
     title: "Todo App",
     description:
-      `Developed a dynamic ToDo application supporting full CRUD operations (Add, Update, Delete) for efficient task management, with task categorization implemented using a separate Category entity in JPA to enable filtering by category. The app features task completion tracking via checkboxes, which updates a real-time progress chart using Recharts, and a responsive, modern UI built with TailwindCSS for seamless user experience. Integrated React-Toastify provides instant success and error notifications to enhance interactivity, while Spring Boot and JPA power the backend REST API and ensure efficient database operations. This project demonstrates expertise in frontend-backend integration, component-based architecture, and data-driven UI design.`,
+      `This is a full-stack Task Management application developed using Spring Boot for the backend and React.js for the frontend. The system allows users to perform complete CRUD operations on tasks and categories, including creating new categories dynamically. It includes advanced filtering functionality to search tasks by title and category for better task organization. Secure authentication and authorization are implemented using Spring Security with JWT, ensuring protected API access and stateless session management. Users can also update their profile information. The UI is built with Tailwind CSS to provide a modern, responsive design.`,
     image: todoAppLogo,
     tags: ["ReactJS", "TailwindCSS", "Spring Boot", "Spring Data JPA", "MySQ", "JavaScript"],
     github: "https://github.com/Ashutosh-gaur/TodoApp",
