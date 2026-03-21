@@ -2,10 +2,12 @@ import React from 'react';
 import { useRef } from 'react';
 
 import emailjs from "@emailjs/browser";
-
+import { toast } from 'react-toastify';
 
 function Contact() {
-  
+
+
+
   const form = useRef();
   const menuitems = [
     { id: "about", label: "About" },
@@ -24,27 +26,45 @@ function Contact() {
   }
 
   const sendEmail = (e) => {
-   
 
-     e.preventDefault(); 
-      const currentTime = new Date().toLocaleString();
+
+    e.preventDefault();
+    const currentTime = new Date().toLocaleString();
 
     emailjs
-      .sendForm(
-        import.meta.env.VITE_EMAILJS_SERVICE_ID,   
-        import.meta.env.VITE_EMAILJS_TEMPLATE_ID, 
-        form.current,
-        { publicKey: import.meta.env.VITE_EMAILJS_PUBLIC_KEY } 
+      .send(
+        import.meta.env.VITE_EMAILJS_SERVICE_ID,
+        import.meta.env.VITE_EMAILJS_TEMPLATE_ID,
+        {
+
+          name: form.current.name.value,
+          email: form.current.email.value,
+          subject: form.current.subject.value,
+          message: form.current.message.value,
+
+          initials: form.current.name.value
+            .split(" ")
+            .map((w) => w[0])
+            .join("")
+            .toUpperCase(),
+
+          time: new Date().toLocaleString("en-IN", {
+            dateStyle: "medium",
+            timeStyle: "short",
+          }),
+        },
+        import.meta.env.VITE_EMAILJS_PUBLIC_KEY 
       )
       .then(
         () => {
           console.log("SUCCESS!");
-          alert("✅ Message sent successfully!");
-          e.target.reset(); 
+          toast.success("Message sent successfully!");
+          // alert("✅ Message sent successfully!");
+          e.target.reset();
         },
         (error) => {
           console.log("FAILED...", error.text);
-          alert("❌ Failed to send message. Try again!");
+          toast.error("Failed to send message. Try again!");
         }
       );
   };
@@ -81,7 +101,7 @@ function Contact() {
           />
           <input
             type="text"
-            name="title"
+            name="subject"
             placeholder="Subject"
             className="bg-transparent border-b border-white/20 py-3 px-4 focus:outline-none focus:border-purple-500"
           />
@@ -92,7 +112,7 @@ function Contact() {
             className="bg-transparent border-b border-white/20 py-3 px-4 focus:outline-none focus:border-purple-500"
           ></textarea>
 
-           <input type="hidden" name="time" value={new Date().toLocaleString()} />
+          <input type="hidden" name="time" value={new Date().toLocaleString()} />
 
           <button
             type="submit"
